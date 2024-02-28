@@ -23,10 +23,12 @@ $data = $objct->getPeminjam();
         </ul>
         <div class="clearfix"></div>
     </div>
-    <div class="x_content d-flex justify-content-center">
+    <div class="x_content ">
         <div class="chart-container row justify-content-around my-5" style="position: relative; height:40vh; width:80vw">
-            <canvas id="myChart"></canvas>
-            <canvas id="myPie"></canvas>
+            <!-- <div class="d-flex justify-content-center"> -->
+                <div class="col-md-6"> <canvas id="myChart"></canvas></div>
+                <div class="col-md-4"><canvas id="myPie"></canvas></div>
+            <!-- </div> -->
         </div>
     </div>
 </div>
